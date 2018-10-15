@@ -14,7 +14,7 @@ theme_settings:
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: "To follow, without halt, one aim: There's the secret of success." - Anna Pavlova> #two or three lines to describe your site
+  header_text: >"To follow, without halt, one aim: There's the secret of success." - Anna Pavlova #two or three lines to describe your site
      <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
