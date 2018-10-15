@@ -15,7 +15,10 @@ theme_settings:
 
   # Header and footer text
   header_text:
-     <p>"To follow, without halt, one aim: There's the secret of success." - Anna Pavlova </p> #two or three lines to describe your site
+      <p>
+      To follow, without halt, one aim,
+      There's the secret of success.
+      </p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
