@@ -25,7 +25,7 @@ Definition of BigData: <!--more-->
     2단계 : 데이터 획득 (설계가, 엔지니어)
     3단계 : 정보 처리 (분석가, 과학자)
     4단계 : 비즈니스 프로세스 (최종 사용자)
-![Image of a 빅데이터분석과정 Chart]({{ site.baseurl }}/assets/img/pexels/빅데이터분석과정.jpeg)
+![빅데이터분석과정](/assets/img/pexels/빅데이터분석과정.jpeg)
     
 # 3Vs of Big Data
 
@@ -36,7 +36,7 @@ Definition of BigData: <!--more-->
 * 기존 분석 어려운 비정형 데이터 분석 기법까지 등장 -> 분석가능 데이터 종류 다양해짐
 * Big Data 이용 시스템이 오픈 소스로 공개
 * GPGPU 기술 도입 -> 연신속도 비약적으로 향상
-![Image of a GPGPU]({{ site.baseurl }}/assets/img/pexels/gpgpu1.jpeg)
+![gpgpu1](/assets/img/pexels/gpgpu1.jpeg)
 
 
 ## Volume
@@ -88,7 +88,7 @@ Definition of BigData: <!--more-->
 2. 독점기업의 이윤
 	- 빅데이터 비즈니스 모델의 경쟁력은 차별화된 특징, 독점성, 저비용 측면 존재
 	- 저렴한 비용으로 자신만이 보유한 데이터를 차별화된 방법으로 분석하여 경쟁력 확보하는 것
-![Image of a 독점기업이윤 Chart]({{ site.baseurl }}/assets/img/pexels/독점기업이윤.jpeg)
+![독점기업이윤](/assets/img/pexels/독점기업이윤.jpeg)
 
 #### Feature of Data
 : 데이터의 깊이, 길이, 폭, 시점
