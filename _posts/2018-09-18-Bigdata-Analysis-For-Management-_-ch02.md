@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Business Big Data Analysis _ ch02
+title: Bigdata Analysis For Management _ ch02
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 Hello Python!: <!--more-->
 ---
