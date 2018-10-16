@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample post
-tags: [A Tag, Test, Lorem, Ipsum]
+title: Business Big Data Analysis
+tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 excerpt_separator: <!--more-->
 ---
 
