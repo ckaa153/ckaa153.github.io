@@ -1,4 +1,4 @@
-	---
+---
 layout: post
 title: Business Big Data Analysis _ ch02
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
