@@ -2,7 +2,7 @@
 layout: post
 title: Business Big Data Analysis _ ch02
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
-Hello Python! <!--more-->
+Hello Python!: <!--more-->
 ---
 ## Anaconda
 - Jupyter 라는 Web 기반 Notebook Interface를 지닌 커널 변경이 가능한 개발 환경 함께 제공
