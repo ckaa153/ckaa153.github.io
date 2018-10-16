@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Business Big Data Analysis _ ch03
+title: Bigdata Analysis For Management _ ch03
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 Variables and Operators: <!--more-->
 ---
