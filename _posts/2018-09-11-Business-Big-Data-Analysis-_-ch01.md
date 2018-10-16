@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Business Big Data Analysis _ ch01
-feature-img: "assets/img/pexels/data-vs-information.jpeg"
-thumbnail: "assets/img/thumbnails/data-vs-information.jpeg"
+feature-img: "assets/img/pexels/liverpool1.jpeg"
+thumbnail: "assets/img/thumbnails/liverpool1.jpeg"
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 Definition of BigData: <!--more-->
 ---
