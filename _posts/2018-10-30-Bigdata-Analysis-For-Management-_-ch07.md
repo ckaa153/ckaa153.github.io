@@ -152,6 +152,8 @@ Data Structure & File IO & Excpetion: <!--more-->
 	- Push는 Stack 최상단 Data 위에 새로운 Data 쌓음
 	- POP는 Stack의 최상단에 있는 Data를 빼옴
 
+
+
 		def main():
 		stack = [ ]
 		stack.append(1)
