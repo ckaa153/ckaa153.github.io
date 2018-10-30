@@ -28,7 +28,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 - del = 삭제할 때
 
 
-	shoplist = ['apple', 'mange', 'carrot', 'banana']
+		shoplist = ['apple', 'mange', 'carrot', 'banana']
     
     	print 'I have', len(shoplist), 'items to purchase.'
     
@@ -57,8 +57,8 @@ Data Structure & File IO & Excpetion: <!--more-->
 - 튜플을 초기화 할 때 괄호 사용 ( )
 
 
-	zoo = ('python', 'elephant', 'penguin')
-	print 'Number of animals in the zoo is', len(zoo)
+		zoo = ('python', 'elephant', 'penguin')
+		print 'Number of animals in the zoo is', len(zoo)
     
     	new_zoo = 'monkey', 'camel', zoo
     	print 'Number of cage in the new zoo is', len(new_zoo)
@@ -74,13 +74,13 @@ Data Structure & File IO & Excpetion: <!--more-->
 	- {key1:value1,key2:value2}
 
 
-	ab = {   'Swaroop'   : 'swaroop@swaroopch.com',
+		ab = {   'Swaroop'   : 'swaroop@swaroopch.com',
 		 'Laryy'     : 'larry@wall.org',
 		 'Matsumoto' : 'matz@ruby-lang.org',
 		 'Spammer'   : 'spammer@hotmail.com'
              }
           
-	print "Swaroop's address is", ab['Swaroop']
+		print "Swaroop's address is", ab['Swaroop']
     
     	del ab['Spammer']
     
@@ -119,7 +119,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 - 교집합 구할 수 있음
 
 
-	bri = set(['brazil', 'russia', 'india'])
+		bri = set(['brazil', 'russia', 'india'])
     
 	    print bri
 	    print type(bri)
@@ -173,6 +173,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 		if __name__ == '__main__' :
 		main()
+		
         
 #### Queue
 - Queue는 먼저 넣은 Data가 먼저 나오는 구조(FIFO 구조 : First in First Out)
