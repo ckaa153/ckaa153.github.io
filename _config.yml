@@ -15,10 +15,8 @@ theme_settings:
 
   # Header and footer text
   header_text:
-      <h>JUST DO IT</h>
-      <p>
-      "Blaze With The Fire That Is Never Extinguished."
-      </p>
+      <h1 class="blog-title">JUST DO IT</h1>
+      <h2 class="blog-description">"Blaze With The Fire That Is Never Extinguished."</h2>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a>
