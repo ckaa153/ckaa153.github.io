@@ -27,28 +27,27 @@ Data Structure & File IO & Excpetion: <!--more-->
 - append( ) 와 sort( )
 - del = 삭제할 때
 
-
 		shoplist = ['apple', 'mange', 'carrot', 'banana']
-    
-    	print 'I have', len(shoplist), 'items to purchase.'
-    
-    	print 'These items are:',
-    	for item in shoplist:
-    		print item,
-        
-    	print '\nI also have to buy rice.'
-    	shoplist.appen('rice')
-    	print 'My shopping list is now', shoplist
-    
-    	print 'I will sort my list now'
-    	shoplist.sort( )
-    	print 'Sorted shopping list is', shoplist
-    
-    	print 'The first item I will buy is', shoplist[0]
-    	olditem = shoplist[0]
-    	del shoplist[0]
-    	print 'I bought the ', olditem
-    	print 'My shopping list is now', shoplist
+
+		print 'I have', len(shoplist), 'items to purchase.'
+
+		print 'These items are:',
+		for item in shoplist:
+			print item,
+
+		print '\nI also have to buy rice.'
+		shoplist.appen('rice')
+		print 'My shopping list is now', shoplist
+
+		print 'I will sort my list now'
+		shoplist.sort( )
+		print 'Sorted shopping list is', shoplist
+
+		print 'The first item I will buy is', shoplist[0]
+		olditem = shoplist[0]
+		del shoplist[0]
+		print 'I bought the ', olditem
+		print 'My shopping list is now', shoplist
     
     
 #### Tuple
@@ -59,13 +58,13 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 		zoo = ('python', 'elephant', 'penguin')
 		print 'Number of animals in the zoo is', len(zoo)
-    
-    	new_zoo = 'monkey', 'camel', zoo
-    	print 'Number of cage in the new zoo is', len(new_zoo)
-    	print 'All animals in new zoo ar', new zoo
-    	print 'Animals brought from old zoo are', new_zoo[2]
-    	print 'Last animal brought from old zoo is', new_zoo[2][2]
-    	print 'Number of animals in the new zoo is', /len(new_zoo)-1+len(new_zoo[2])
+
+		new_zoo = 'monkey', 'camel', zoo
+		print 'Number of cage in the new zoo is', len(new_zoo)
+		print 'All animals in new zoo ar', new zoo
+		print 'Animals brought from old zoo are', new_zoo[2]
+		print 'Last animal brought from old zoo is', new_zoo[2][2]
+		print 'Number of animals in the new zoo is', /len(new_zoo)-1+len(new_zoo[2])
     
     
 #### Dictionary
@@ -74,41 +73,37 @@ Data Structure & File IO & Excpetion: <!--more-->
 	- {key1:value1,key2:value2}
 
 
-		ab = {   'Swaroop'   : 'swaroop@swaroopch.com',
-		 'Laryy'     : 'larry@wall.org',
-		 'Matsumoto' : 'matz@ruby-lang.org',
-		 'Spammer'   : 'spammer@hotmail.com'
-             }
-          
+		ab = {'Swaroop'   : 'swaroop@swaroopch.com', 'Laryy'     : 'larry@wall.org', 'Matsumoto' : 'matz@ruby-lang.org', 'Spammer'   : 'spammer@hotmail.com'}
+
 		print "Swaroop's address is", ab['Swaroop']
-    
-    	del ab['Spammer']
-    
-    	print '\nThere are {} contacts in the address-book\n'.format(len(ab))
-    
-    	for name, address in ab.items():
-    		print 'Contact { } at { } '.format(name,address)
-        
-    	ab['Guido'] = 'guido@python.org'
-    
-    	if 'Guido' in ab:
-    		print "\nGuido's address is", ab['Guido']
-    
-    	print ab
-    
-    	->
-    
-    	(result)
-    	Swaroop's address is swaroop@swaroopch.com
 
-    	There are 3 contacts in the address-book
+		del ab['Spammer']
 
-    	Contact Swaroop at swaroop@swaroopch.com
-    	Contact Matsumoto at matz@ruby-lang.org
-    	Contact Larry at larry@wall.org
+		print '\nThere are {} contacts in the address-book\n'.format(len(ab))
 
-    	Guido's address is guido@python.org
-    	{'Swaroop': 'swaroop@swaroopch.com', 'Matsumoto': 'matz@ruby-lang.org', 'Larry': 'larry@wall.org', 'Guido': 'guido@python.org'}
+		for name, address in ab.items():
+			print 'Contact { } at { } '.format(name,address)
+
+		ab['Guido'] = 'guido@python.org'
+
+		if 'Guido' in ab:
+		print "\nGuido's address is", ab['Guido']
+
+		print ab
+
+		->
+
+		(result)
+		Swaroop's address is swaroop@swaroopch.com
+
+		There are 3 contacts in the address-book
+
+		Contact Swaroop at swaroop@swaroopch.com
+		Contact Matsumoto at matz@ruby-lang.org
+		Contact Larry at larry@wall.org
+
+		Guido's address is guido@python.org
+		{'Swaroop': 'swaroop@swaroopch.com', 'Matsumoto': 'matz@ruby-lang.org', 'Larry': 'larry@wall.org', 'Guido': 'guido@python.org'}
     
 
 #### SET
@@ -120,35 +115,35 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 
 		bri = set(['brazil', 'russia', 'india'])
-    
-	    print bri
-	    print type(bri)
 
-	    print 'india' in bri
-	    print 'usa' in bri
+		print bri
+		print type(bri)
 
-	    bric = bri.copy()
-	    bric.add('china')
-	    bric.add('china')
-	    print bric.issuperset(bri)
+		print 'india' in bri
+		print 'usa' in bri
 
-	    bri. remove('russia')
-	    print bri
-	    print bric
+		bric = bri.copy()
+		bric.add('china')
+		bric.add('china')
+		print bric.issuperset(bri)
 
-	    print bri & bric
-    
-	    ->
+		bri. remove('russia')
+		print bri
+		print bric
 
-	    (result)
-	    set(['brazil', 'india', 'russia'])
-	    <type 'set'>
-	    True
-	    False
-	    True
-	    set(['brazil', 'india'])
-	    set(['brazil', 'china', 'india', 'russia'])
-	    set(['brazil', 'india'])
+		print bri & bric
+
+		->
+
+		(result)
+		set(['brazil', 'india', 'russia'])
+		<type 'set'>
+		True
+		False
+		True
+		set(['brazil', 'india'])
+		set(['brazil', 'china', 'india', 'russia'])
+		set(['brazil', 'india'])
 
 
 
@@ -158,7 +153,6 @@ Data Structure & File IO & Excpetion: <!--more-->
 - Stack을 조작하는 동작은 Data를 넣은 Push 동작과 Data를 빼오는 POP 동작 존재
 	- Push는 Stack 최상단 Data 위에 새로운 Data 쌓음
 	- POP는 Stack의 최상단에 있는 Data를 빼옴
-
 
 		def main():
 		stack = [ ]
@@ -172,7 +166,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 			print "POP >", stack.pop( )
 
 		if __name__ == '__main__' :
-		main()
+			main()
 		
         
 #### Queue
