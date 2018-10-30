@@ -6,9 +6,9 @@ thumbnail: "assets/img/thumbnails/desk-top.jpeg"
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 Data Structure & File IO & Excpetion: <!--more-->
 ---
-##Review
+## Review
 
-####재귀함수
+#### 재귀함수
 
 	def factorial(a):
     	if a == 1:
@@ -19,9 +19,9 @@ Data Structure & File IO & Excpetion: <!--more-->
     print factorial(3)
 
 
-##Data Structure
+## Data Structure
 
-####List
+#### List
 - 순서대로 정리된 비정적mutable 자료구조
 - List 초기화시 [ ] 사용
 - append( ) 와 sort( )
@@ -51,7 +51,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     print 'My shopping list is now', shoplist
     
     
-####Tuple
+#### Tuple
 - 여러 개의 객체를 모아 담은 정적mutable 자료구조(순서 있음)
 - new_zoo[2][2] 인덱싱 연산자
 - 튜플을 초기화 할 때 괄호 사용 ( )
@@ -68,7 +68,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     print 'Number of animals in the new zoo is', /len(new_zoo)-1+len(new_zoo[2])
     
     
-####Dictionary
+#### Dictionary
 - Dictionary 초기화에 { }사용
 - Key 와 Value 가 쌍으로 이루어짐
 	- {key1:value1,key2:value2}
@@ -111,7 +111,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     {'Swaroop': 'swaroop@swaroopch.com', 'Matsumoto': 'matz@ruby-lang.org', 'Larry': 'larry@wall.org', 'Guido': 'guido@python.org'}
     
 
-####SET
+#### SET
 - 집합은 정렬되지 않은 단순 객체의 묶음
 - 중복을 허럭하지 않음
 - Membership test 수행 가능
@@ -152,7 +152,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 
 
-####Stack
+#### Stack
 - Stack은 Data 입/출력이 한쪽으로만 접근할 수 있는 자료 구조
 	- 가장 나중에 들어간 Data가 제일 먼저 나옴(LIFO 구조 : Last In First Out)
 - Stack을 조작하는 동작은 Data를 넣은 Push 동작과 Data를 빼오는 POP 동작 존재
@@ -174,7 +174,7 @@ Data Structure & File IO & Excpetion: <!--more-->
 	if __name__ == '__main__' :
     	main()
         
-####Queue
+#### Queue
 - Queue는 먼저 넣은 Data가 먼저 나오는 구조(FIFO 구조 : First in First Out)
 - Queue는 LIFO 구조인 Stack과 반대되는 개념
 - Queue는 입/출력 부분이 양쪽에 존재
@@ -182,14 +182,14 @@ Data Structure & File IO & Excpetion: <!--more-->
 - 한 쪽은 Data 빼기만 함 -> GET 동작
 
 
-####Mutable(변함) vs Immutable(변하지X)
+#### Mutable(변함) vs Immutable(변하지X)
 - 숫자형(Number) = Immutable
 - 리스트(List) = Mutable
 - 사전(Dictionary) = Mutable
 - 문자열(String) = Immutable
 - 튜플(Tuple) = Immutable
 
-####Indextion & Slicing
+#### Indextion & Slicing
 	
     shoplist = ['apple', 'mango', 'carrot', 'banana']
     name = 'swaroop'
@@ -241,7 +241,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     Charactors start to end is swaroop
     
 
-####Random
+#### Random
 
     import random
 
@@ -269,7 +269,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     ['b', 'd', 'e', 'a', 'c']
     ['a', 'b', 'c', 'd', 'e']
 
-####Find & Delimiter
+#### Find & Delimiter
 - Membership text 'In' 과 'Not In' 연산
 
 	name = 'Swaroop'
@@ -299,7 +299,7 @@ Data Structure & File IO & Excpetion: <!--more-->
     Brazil, Russia, Indida, China
 
 
-####List Comprehension
+#### List Comprehension
 - 한 List의 모든 원소 각각에 어떤 함수 적용 후, 그 반환값을 원소로 가지는 다른 List를 쉽게 생성(Mapping)
 
 
@@ -317,15 +317,15 @@ Data Structure & File IO & Excpetion: <!--more-->
     [2, 18, 16, 8]
 
 
-####Dictionary & Set Comprehension
+#### Dictionary & Set Comprehension
 - Dictionary Comprehension은 입력 Sequence로부터 지정된 표현식에 따라 새로운 Dictionary 컬렉션을 Build
 - {출력표현식 for 요소 in 입력Sequence [if 조건식]}
 
 
 
-##File I/O & Exception Handling
+## File I/O & Exception Handling
 
-####Exception Handling
+#### Exception Handling
 - 오류 vs 예외 vs 버그
 	1. 버그(Bug)
 		- 프로그래머에 의한 에러
@@ -371,9 +371,9 @@ Data Structure & File IO & Excpetion: <!--more-->
                 	raise NotImplementedError
 
 
-##File I/O
+## File I/O
 
-####Raw_input()
+#### Raw_input()
 	def reverse(text) :
     	return text[::-1]
 
