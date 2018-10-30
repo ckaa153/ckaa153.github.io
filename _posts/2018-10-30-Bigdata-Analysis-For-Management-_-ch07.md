@@ -7,6 +7,7 @@ tags: [Big Data, Data Analysis, Business Administration, SangMyung University, R
 Data Structure & File IO & Excpetion: <!--more-->
 ---
 ##Review
+
 ####재귀함수
 
 	def factorial(a):
