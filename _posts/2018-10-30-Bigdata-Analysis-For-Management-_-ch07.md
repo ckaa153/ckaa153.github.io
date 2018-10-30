@@ -75,40 +75,40 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 
 	ab = {   'Swaroop'   : 'swaroop@swaroopch.com',
-    		 'Laryy'     : 'larry@wall.org',
-             'Matsumoto' : 'matz@ruby-lang.org',
-             'Spammer'   : 'spammer@hotmail.com'
-          }
+		 'Laryy'     : 'larry@wall.org',
+		 'Matsumoto' : 'matz@ruby-lang.org',
+		 'Spammer'   : 'spammer@hotmail.com'
+             }
           
 	print "Swaroop's address is", ab['Swaroop']
     
-    del ab['Spammer']
+    	del ab['Spammer']
     
-    print '\nThere are {} contacts in the address-book\n'.format(len(ab))
+    	print '\nThere are {} contacts in the address-book\n'.format(len(ab))
     
-    for name, address in ab.items():
-    	print 'Contact { } at { } '.format(name,address)
+    	for name, address in ab.items():
+    		print 'Contact { } at { } '.format(name,address)
         
-    ab['Guido'] = 'guido@python.org'
+    	ab['Guido'] = 'guido@python.org'
     
-    if 'Guido' in ab:
-    	print "\nGuido's address is", ab['Guido']
+    	if 'Guido' in ab:
+    		print "\nGuido's address is", ab['Guido']
     
-    print ab
+    	print ab
     
-    ->
+    	->
     
-    (result)
-    Swaroop's address is swaroop@swaroopch.com
+    	(result)
+    	Swaroop's address is swaroop@swaroopch.com
 
-    There are 3 contacts in the address-book
+    	There are 3 contacts in the address-book
 
-    Contact Swaroop at swaroop@swaroopch.com
-    Contact Matsumoto at matz@ruby-lang.org
-    Contact Larry at larry@wall.org
+    	Contact Swaroop at swaroop@swaroopch.com
+    	Contact Matsumoto at matz@ruby-lang.org
+    	Contact Larry at larry@wall.org
 
-    Guido's address is guido@python.org
-    {'Swaroop': 'swaroop@swaroopch.com', 'Matsumoto': 'matz@ruby-lang.org', 'Larry': 'larry@wall.org', 'Guido': 'guido@python.org'}
+    	Guido's address is guido@python.org
+    	{'Swaroop': 'swaroop@swaroopch.com', 'Matsumoto': 'matz@ruby-lang.org', 'Larry': 'larry@wall.org', 'Guido': 'guido@python.org'}
     
 
 #### SET
@@ -121,34 +121,34 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 	bri = set(['brazil', 'russia', 'india'])
     
-    print bri
-    print type(bri)
+	    print bri
+	    print type(bri)
+
+	    print 'india' in bri
+	    print 'usa' in bri
+
+	    bric = bri.copy()
+	    bric.add('china')
+	    bric.add('china')
+	    print bric.issuperset(bri)
+
+	    bri. remove('russia')
+	    print bri
+	    print bric
+
+	    print bri & bric
     
-    print 'india' in bri
-    print 'usa' in bri
-    
-    bric = bri.copy()
-    bric.add('china')
-    bric.add('china')
-    print bric.issuperset(bri)
-    
-    bri. remove('russia')
-    print bri
-    print bric
-    
-    print bri & bric
-    
-    ->
-    
-    (result)
-    set(['brazil', 'india', 'russia'])
-    <type 'set'>
-    True
-    False
-    True
-    set(['brazil', 'india'])
-    set(['brazil', 'china', 'india', 'russia'])
-    set(['brazil', 'india'])
+	    ->
+
+	    (result)
+	    set(['brazil', 'india', 'russia'])
+	    <type 'set'>
+	    True
+	    False
+	    True
+	    set(['brazil', 'india'])
+	    set(['brazil', 'china', 'india', 'russia'])
+	    set(['brazil', 'india'])
 
 
 
@@ -160,19 +160,19 @@ Data Structure & File IO & Excpetion: <!--more-->
 	- POP는 Stack의 최상단에 있는 Data를 빼옴
 
 
-	def main():
-    	stack = [ ]
-        stack.append(1)
-        stack.append(2)
-        stack.append(3)
-        stack.append(4)
-        print stack
-		
-        while stack:
-        	print "POP >", stack.pop( )
-            
-	if __name__ == '__main__' :
-    	main()
+		def main():
+		stack = [ ]
+		stack.append(1)
+		stack.append(2)
+		stack.append(3)
+		stack.append(4)
+		print stack
+
+		while stack:
+			print "POP >", stack.pop( )
+
+		if __name__ == '__main__' :
+		main()
         
 #### Queue
 - Queue는 먼저 넣은 Data가 먼저 나오는 구조(FIFO 구조 : First in First Out)
@@ -191,130 +191,130 @@ Data Structure & File IO & Excpetion: <!--more-->
 
 #### Indextion & Slicing
 	
-    shoplist = ['apple', 'mango', 'carrot', 'banana']
-    name = 'swaroop'
-    
-    # Indexting or 'Subscription' operation #
-    print 'Item 0 is', shoplist[0]
-    print 'Item 1 is', shoplist[1]
-    print 'Item 2 is', shoplist[2]
-    print 'Item 3 is', shoplist[3]
-    print 'Item -1 is', shoplist[-1]
-    print 'Item -2 is', shoplist[-2]
-	print 'Charactor 0 is', name[0]
-    ->
-    (result)
-    Item 0 is apple
-    Item 1 is mango
-    Item 2 is carrot
-    Item 3 is banana
-    Item -1 is banana
-    Item -2 is carrot
-    Charactor 0 is s
-    
-    
-    
-    # Slicing on a List #
-    print 'Item 1 to 3 is', shoplist[1:3]
-    print 'Item 2 to end is', shoplist[2:]
-    print 'Item 1 to -1 is', shoplist[1:-1]
-    print 'Item start to end is', shoplist[:]
-    ->
-    (result)
-    Item 1 to 3 is ['mango', 'carrot']
-    Item 2 to end is ['carrot', 'banana']
-    Item 1 to -1 is ['mango', 'carrot']
-    Item start to end is ['apple', 'mango', 'carrot', 'banana']
-    
-    
-    
-    # Slicing on a String #
-    print 'Characters 1 to 3 is', name[1:3]
-    print 'Charactors 2 to end is', name[2:]
-    print 'Charactors 1 to -1 is', name[1:-1]
-    print 'Charactors start to end is', name[:]
-    ->
-    (result)
-    Characters 1 to 3 is wa
-    Charactors 2 to end is aroop
-    Charactors 1 to -1 is waroo
-    Charactors start to end is swaroop
+	    shoplist = ['apple', 'mango', 'carrot', 'banana']
+	    name = 'swaroop'
+
+	    # Indexting or 'Subscription' operation #
+	    print 'Item 0 is', shoplist[0]
+	    print 'Item 1 is', shoplist[1]
+	    print 'Item 2 is', shoplist[2]
+	    print 'Item 3 is', shoplist[3]
+	    print 'Item -1 is', shoplist[-1]
+	    print 'Item -2 is', shoplist[-2]
+		print 'Charactor 0 is', name[0]
+	    ->
+	    (result)
+	    Item 0 is apple
+	    Item 1 is mango
+	    Item 2 is carrot
+	    Item 3 is banana
+	    Item -1 is banana
+	    Item -2 is carrot
+	    Charactor 0 is s
+
+
+
+	    # Slicing on a List #
+	    print 'Item 1 to 3 is', shoplist[1:3]
+	    print 'Item 2 to end is', shoplist[2:]
+	    print 'Item 1 to -1 is', shoplist[1:-1]
+	    print 'Item start to end is', shoplist[:]
+	    ->
+	    (result)
+	    Item 1 to 3 is ['mango', 'carrot']
+	    Item 2 to end is ['carrot', 'banana']
+	    Item 1 to -1 is ['mango', 'carrot']
+	    Item start to end is ['apple', 'mango', 'carrot', 'banana']
+
+
+
+	    # Slicing on a String #
+	    print 'Characters 1 to 3 is', name[1:3]
+	    print 'Charactors 2 to end is', name[2:]
+	    print 'Charactors 1 to -1 is', name[1:-1]
+	    print 'Charactors start to end is', name[:]
+	    ->
+	    (result)
+	    Characters 1 to 3 is wa
+	    Charactors 2 to end is aroop
+	    Charactors 1 to -1 is waroo
+	    Charactors start to end is swaroop
     
 
 #### Random
 
-    import random
+	    import random
 
-    print random.random()
+	    print random.random()
 
-    print random.randrange(1,7)
+	    print random.randrange(1,7)
 
-    # 순서형 자료 섞는 역할
-    abc = ['a', 'b', 'c', 'd', 'e']
-    print abc
+	    # 순서형 자료 섞는 역할
+	    abc = ['a', 'b', 'c', 'd', 'e']
+	    print abc
 
-    random.shuffle(abc)
-    print abc
+	    random.shuffle(abc)
+	    print abc
 
-    # 재정렬
-    abc.sort()
-    print abc
-    
-    ->
-    
-    (result)
-    0.927379293707
-    5
-    ['a', 'b', 'c', 'd', 'e']
-    ['b', 'd', 'e', 'a', 'c']
-    ['a', 'b', 'c', 'd', 'e']
+	    # 재정렬
+	    abc.sort()
+	    print abc
+
+	    ->
+
+	    (result)
+	    0.927379293707
+	    5
+	    ['a', 'b', 'c', 'd', 'e']
+	    ['b', 'd', 'e', 'a', 'c']
+	    ['a', 'b', 'c', 'd', 'e']
 
 #### Find & Delimiter
 - Membership text 'In' 과 'Not In' 연산
 
-	name = 'Swaroop'
+	    name = 'Swaroop'
 
-    if name.startswith('Swa'):
-        print 'Yes, the string starts withe "Swa"'
+	    if name.startswith('Swa'):
+		print 'Yes, the string starts withe "Swa"'
 
-    if 'a' in name:
-        print 'Yes, it contains the string "a"'
+	    if 'a' in name:
+		print 'Yes, it contains the string "a"'
 
-    if name.find('war') != -1:
-        print 'Yes, it contains the string "war"'
+	    if name.find('war') != -1:
+		print 'Yes, it contains the string "war"'
 
-    delimiter = '_*_'
-    space_char = ', '
-    myList = ['Brazil', 'Russia', 'Indida', 'China']
-    print delimiter.join(myList)
-    print space_char.join(myList)
-    
-    ->
-    
-    (result)
-    Yes, the string starts withe "Swa"
-    Yes, it contains the string "a"
-    Yes, it contains the string "war"
-    Brazil_*_Russia_*_Indida_*_China
-    Brazil, Russia, Indida, China
+	    delimiter = '_*_'
+	    space_char = ', '
+	    myList = ['Brazil', 'Russia', 'Indida', 'China']
+	    print delimiter.join(myList)
+	    print space_char.join(myList)
+
+	    ->
+
+	    (result)
+	    Yes, the string starts withe "Swa"
+	    Yes, it contains the string "a"
+	    Yes, it contains the string "war"
+	    Brazil_*_Russia_*_Indida_*_China
+	    Brazil, Russia, Indida, China
 
 
 #### List Comprehension
 - 한 List의 모든 원소 각각에 어떤 함수 적용 후, 그 반환값을 원소로 가지는 다른 List를 쉽게 생성(Mapping)
 
 
-	a_list = [1, 9, 8, 4]
-    print ([elem * 2 for elem in a_list])
-    print (a_list)
-    a_list = [elem * 2 for elem in a_list]
-    print (a_list)
-    
-    ->
-    
-    (result)
-    [2, 18, 16, 8]
-    [1, 9, 8, 4]
-    [2, 18, 16, 8]
+	    a_list = [1, 9, 8, 4]
+	    print ([elem * 2 for elem in a_list])
+	    print (a_list)
+	    a_list = [elem * 2 for elem in a_list]
+	    print (a_list)
+
+	    ->
+
+	    (result)
+	    [2, 18, 16, 8]
+	    [1, 9, 8, 4]
+	    [2, 18, 16, 8]
 
 
 #### Dictionary & Set Comprehension
@@ -336,9 +336,9 @@ Data Structure & File IO & Excpetion: <!--more-->
 - 기본 구조
 	1. try & except 문
 			try :
-    	 		 .....
+    	 			 .....
 			except [발생 오류[as 오류 메시지 변수]]
-    	 		 .....
+    	 		 	.....
 	2. try ... else 문
 			try :
             	 f = open('foo.txt', 'r')
@@ -377,11 +377,11 @@ Data Structure & File IO & Excpetion: <!--more-->
 	def reverse(text) :
     	return text[::-1]
 
-    def is_palindrome(text) :
-        return text == reverse(text)
+   	def is_palindrome(text) :
+        	return text == reverse(text)
 
-    something = raw_input("Enter text: ")
-    if is_palindrome(something) :
-        print "Yes, it is a palindrom"
-    else :
-        print "No, it is not a palindrom"
+    	something = raw_input("Enter text: ")
+    	if is_palindrome(something) :
+        	print "Yes, it is a palindrom"
+    	else :
+        	print "No, it is not a palindrom"
