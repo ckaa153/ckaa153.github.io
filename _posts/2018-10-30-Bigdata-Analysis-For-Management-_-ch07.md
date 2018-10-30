@@ -331,49 +331,50 @@ Data Structure & File IO & Excpetion: <!--more-->
 - 기본 구조
 	1. try & except 문
 	
-		try :
-			.....
-		except [발생 오류[as 오류 메시지 변수]]
-			.....
+			try :
+				.....
+			except [발생 오류[as 오류 메시지 변수]]
+				.....
 			
 	2. try ... else 문
 	
-		try :
-			f = open('foo.txt', 'r')
-		except FileNotFoundError as e :
-			print(str(e))
-		else :
-			data = f.read( )
-		f.close()
+			try :
+				f = open('foo.txt', 'r')
+			except FileNotFoundError as e :
+				print(str(e))
+			else :
+				data = f.read( )
+			f.close()
 		
 	3. try ... finally 문
 	
-		f = open('foo.txt', 'w')
-		try :
-			# 무언가를 수행한다
-		finally :
-			f.close( )
+			f = open('foo.txt', 'w')
+			try :
+				# 무언가를 수행한다
+			finally :
+				f.close( )
+				
 	4. 여러개의 오류 처리하기
 	
-		try :
-			.....
-		except 발생 오류 1:
-			.....
-		except 발생 오류 2:
-			.....
+			try :
+				.....
+			except 발생 오류 1:
+				.....
+			except 발생 오류 2:
+				.....
 	
 	5. 오류 회피하기
 	
-		try :
-			f = open("나 없는 파일", 'r')
-		except FileNotFoundError :
-			pass
+			try :
+				f = open("나 없는 파일", 'r')
+			except FileNotFoundError :
+				pass
 
 	6. 오류 일부러 발생시키기
 	
-		class Bird :
-			def fly(self) :
-				raise NotImplementedError
+			class Bird :
+				def fly(self) :
+					raise NotImplementedError
 
 
 ## File I/O
