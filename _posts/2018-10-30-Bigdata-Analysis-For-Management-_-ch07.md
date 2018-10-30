@@ -70,8 +70,6 @@ Data Structure & File IO & Excpetion: <!--more-->
 #### Dictionary
 - Dictionary 초기화에 { }사용
 - Key 와 Value 가 쌍으로 이루어짐
-	- {key1:value1,key2:value2}
-
 
 		ab = {'Swaroop'   : 'swaroop@swaroopch.com', 'Laryy'     : 'larry@wall.org', 'Matsumoto' : 'matz@ruby-lang.org', 'Spammer'   : 'spammer@hotmail.com'}
 
