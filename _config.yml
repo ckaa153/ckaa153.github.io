@@ -15,8 +15,9 @@ theme_settings:
 
   # Header and footer text
   header_text:
+      <h>JUST DO IT</h>
       <p>
-      JUST DO IT</>Blaze With The Fire That Is Never Extinguished.
+      "Blaze With The Fire That Is Never Extinguished."
       </p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
