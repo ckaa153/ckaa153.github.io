@@ -4,6 +4,7 @@ title: Bigdata Analysis For Management _ ch07
 feature-img: "assets/img/pexels/desk-top.jpeg"
 thumbnail: "assets/img/thumbnails/desk-top.jpeg"
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
+comments : true
 Data Structure & File IO & Excpetion: <!--more-->
 ---
 ## Review
