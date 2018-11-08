@@ -103,7 +103,7 @@ paginate_path: "blog/page:num"
 # PORTFOLIO
 collections:
   portfolio:
-    output: 
+    output: true
     permalink: /:collection/:name
 
 
@@ -116,3 +116,7 @@ sass:
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+
+
+disqus_url : "https://es0711.dusqus.com/admin/"
+dusqus_id : es0711
