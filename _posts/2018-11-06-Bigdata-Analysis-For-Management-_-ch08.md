@@ -4,6 +4,7 @@ title: Bigdata Analysis For Management _ ch08
 feature-img: "assets/img/pexels/Grand-Canal-Venice-Italy.jpeg"
 thumbnail: "assets/img/thumbnails/Grand-Canal-Venice-Italy.jpeg"
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
+comments : true
 OOP: <!--more-->
 ---
 ## OOP = Object Oriented Programming (객체 지향 프로그래밍)
