@@ -2,6 +2,7 @@
 layout: post
 title: Bigdata Analysis For Management _ ch05
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
+comments : true
 Data Visualization & AWS: <!--more-->
 ---
 ## Data Analysis Process
