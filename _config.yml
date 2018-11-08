@@ -111,5 +111,5 @@ plugins: [jekyll-paginate, jekyll-seo-tag]
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
 
 
-disqus_url : "https://es0711.dusqus.com/admin/"
+disqus_url : https://es0711.dusqus.com/
 dusqus_id : es0711
