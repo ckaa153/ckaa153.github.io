@@ -2,6 +2,6 @@
 
 layout: category
 
-title: BDAM
+title: BigData Analysis for Management
 
 ---
