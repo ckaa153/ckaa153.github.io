@@ -3,6 +3,7 @@ layout: post
 title: Bigdata Analysis For Management _ ch08
 feature-img: "assets/img/pexels/Grand-Canal-Venice-Italy.jpeg"
 thumbnail: "assets/img/thumbnails/Grand-Canal-Venice-Italy.jpeg"
+categories : [Big Data Analysis for Management]
 tags: [Big Data, Data Analysis, Business Administration, SangMyung University, Republic of Korea]
 comments : true
 OOP: <!--more-->
