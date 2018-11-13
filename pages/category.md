@@ -1,8 +1,12 @@
 ---
-layout: page
-title: Category
-permalink: /category/
-gallery_path: "assets/img/pexels/search-map.jpeg"
+layout: default
+title: Categories
 ---
 
-{% include category.html category_path=page.category_path %}
+<div class="post">
+	<h1 class="pageTitle">Categories</h1>
+	<ul>
+		<li><a href="./rails">rails</a></li>
+		<li><a href="./jekyll">jekyll</a></li>
+	</ul>
+</div>
