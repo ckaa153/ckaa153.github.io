@@ -113,5 +113,3 @@ exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE"
 
 disqus_url : https://es0711.dusqus.com/
 dusqus_id : es0711
-
-category_dir : category/
