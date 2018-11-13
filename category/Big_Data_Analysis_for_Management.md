@@ -2,6 +2,6 @@
 
 layout: category
 
-title: BigData Analysis for Management
+title: Big Data Analysis for Management
 
 ---
