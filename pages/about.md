@@ -3,7 +3,7 @@ layout: page
 title: Intro
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Archive]
+tags: [Intro, Asia, ROK, South Korea, SMU]
 ---
 
 ## Name : Shin Euiseok
